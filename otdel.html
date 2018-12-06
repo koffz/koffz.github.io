@@ -15,6 +15,35 @@
 	<link href="style.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/otdel.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+<script type="text/javascript">
+ 
+$(function() {
+ 
+$(window).scroll(function() {
+ 
+if($(this).scrollTop() != 0) {
+ 
+$('#toTop').fadeIn();
+ 
+} else {
+ 
+$('#toTop').fadeOut();
+ 
+}
+ 
+});
+ 
+$('#toTop').click(function() {
+ 
+$('body,html').animate({scrollTop:0},800);
+ 
+});
+ 
+});
+ 
+</script>
 </head>
 <body>
 
@@ -38,7 +67,7 @@
 					<li class="active smooth-scroll"><a href="otdel.html">Про нас</a></li>
 					<li class="smooth-scroll"><a href="aktiv.html">Актив</a></li>
 					<li class="smooth-scroll"><a href="achievs.html">Досягнення</a></li>
-					<li class="smooth-scroll"><a href="#">Турніри</a></li>
+					<li class="smooth-scroll"><a href="play.html">Ігрова</a></li>
 					<li class="smooth-scroll"><a href="contacts.html">Контакти</a></li>
 				</ul>
 			</div>
@@ -46,7 +75,7 @@
 	</nav>
 	</header>
         <section id="services">
-		<div class="container">
+		<div class="text">
 			<div class="title">
 				<h2>
 					Про підрозділ
@@ -108,10 +137,13 @@
 				</p>
 			</div>
 					</div>
-					<div class="container">
-			
+					<div class="text">
 		</div>
-
+		<DIV ID = "toTop" > Наверх </DIV>
+		</body>
+	</div>
+</section>
 <footer> 
 	<div id="foot"><pp=align="center">Сайт створив Марченко Микола</pp></div>
  </footer>
+</body>

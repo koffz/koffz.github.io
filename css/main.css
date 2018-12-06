@@ -134,17 +134,14 @@ h1 {
 	float: right;
 }
 
-footer .container > * {
-	border: 1px solid red;
+footer   {
+    position: fixed; /* Фиксированное положение */
+    bottom: 0; right: 1;/* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #E02929; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center;
+    width: 100%; /* Ширина слоя */
 }
 
-#foot {
-    position: fixed; /* Фиксированное положение */
-    bottom: 0; left: 0; /* Левый нижний угол */
-    padding: 10px; /* Поля вокруг текста */
-    background: #333; /* Цвет фона */
-    color: #fff; /* Цвет текста */
 
-    width: 100%; /* Ширина слоя */
-
-    

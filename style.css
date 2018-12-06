@@ -62,7 +62,6 @@ a:hover {
 
 }
 
-
 /******************** NAVBAR CSS *************/
 header .navbar {
 	border-radius: 0px;
@@ -250,7 +249,7 @@ header .navbar {
 #team {
 	padding: 70px 0;
 	background: url(img/team-bg.jpg) no-repeat;
-	background-size: 9999px;
+	background-size: cover;
 
 }
 
@@ -641,17 +640,55 @@ h1 sup {
 
 /************* our contact area *********/
 #contact {
-	padding: 70px;
+	padding: 70px 0 0;
 	background-color: #000000;
-	position: static;
+	position: relative;
 }
 
 .contact-heading {
-	padding: 100px;
+	padding: 20px 0;
 }
 
 
+/******** contact form *******/
+.contact-form {
+	padding: 70px 0;
+	color: #fff;
+}
 
+.form-control {
+	border-radius: 0;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+	height: 40px;
+	margin-bottom: 20px;
+
+}
+
+textarea {
+	margin-bottom: 40px;
+}
+
+label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 10px;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.red-btn {
+	line-height: 40px;
+	width: 250px;
+	border-radius: 0;
+	background: #EB0000;
+	font-size: 16px;
+}
+
+.red-btn:hover {
+	color: #fff;
+}
 
 /******* footer css********/
 footer {

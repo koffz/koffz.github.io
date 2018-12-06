@@ -95,12 +95,13 @@ h2 {
 color: #777777;	
 }
 
-footer   {
+
+#foot {
     position: fixed; /* Фиксированное положение */
-    bottom: 0; right: 1;/* Левый нижний угол */
+    bottom: 0; left: 0; /* Левый нижний угол */
     padding: 10px; /* Поля вокруг текста */
-    background: #E02929; /* Цвет фона */
+    background: #333; /* Цвет фона */
     color: #fff; /* Цвет текста */
-    text-align: center;
+
     width: 100%; /* Ширина слоя */
-}
+
